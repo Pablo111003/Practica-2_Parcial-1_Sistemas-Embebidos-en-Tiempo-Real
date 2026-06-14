@@ -8,12 +8,21 @@ tres LEDs con PWM. La intensidad de cada uno de los LEDs, es proporcional al val
 
 # Tabla de pines:
 
-GPIO 36 (VP) -> Potenciometro 1 -> LED 1 -> Resistencia -> GND
+GPIO 36 (VP) -> Potenciometro 1 (centro)
+3.3V -> Potenciometro 1 (izquierda)
+GND -> Potenciometro 1 (derecha)
 
-GPIO 39 (VN) -> Potenciometro 2 -> LED 2 -> Resistencia -> GND
+GPIO 39 (VN) -> Potenciometro 2 (centro)
+3.3V -> Potenciometro 2 (izquierda)
+GND -> Potenciometro 2 (derecha)
 
-GPIO 34 -> Potenciometro 3 -> LED 3 -> Resistencia -> GND
+GPIO 34 -> Potenciometro 3 (centro)
+3.3V -> Potenciometro 3 (izquierda)
+GND -> Potenciometro 3 (derecha)
 
+GPIO 25 -> LED Rojo -> Resistencia 220 Ohms -> GND
+GPIO 26 -> LED Verde -> Resistencia 220 Ohms -> GND
+GPIO 27 -> LED Azul -> Resistencia 220 Ohms -> GND
 
 # Conclusiones:
 
